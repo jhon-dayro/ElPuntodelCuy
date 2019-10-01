@@ -1,0 +1,62 @@
+body {
+    
+    background-color: darkgreen;
+    
+
+    }
+    
+
+    .borde{
+        /*border: 1px solid blue;*/
+        width: 250px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .bordeFila{
+       /*border: 1px solid rgb(57, 23, 180);*/
+        width: 250px;
+    }
+    
+
+    .bordeColumna{
+       
+        /*border: 1px solid red ;*/
+       
+        width: 50%;
+        max-width: 300px;
+        height: 300px;
+        
+        
+
+    }
+
+    
+    .imagen{
+
+        width: 250px;
+        border: solid 2px rgb(255, 255, 255);
+
+    }
+
+    footer{
+        margin-top: 50px;
+        width: 100%;
+        height: 200px;
+        /*background-color: red*/
+    }
+
+    h1{
+        color: #ff8000;
+    }
+    h4,h6{
+
+        color: black;
+
+    }
+    p{
+        color: black;
+    }
+    .letra{
+        color: black;
+    }
+
