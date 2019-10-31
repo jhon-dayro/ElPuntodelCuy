@@ -25,8 +25,8 @@ function iniciars() {
 
 }
 
-function registars() {
+function reserva() {
 
-    window.location = "registrar.html"
+    window.location = "reservas.html"
 
 }

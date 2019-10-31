@@ -13,45 +13,55 @@
 </head>
 
 <body>
-        <div class="container borde">
-                <div class="row ">
-                    <div class="col bordeColumna1">
-                        <h1>
-                            <center><br> <br>EL PUNTO DEL CUY</center>
-                        </h1>
-                    </div>
-                    <div class="col bordeColumna1">
-                        <center><img class="imagen" src="imagenes/Logo.png"
-                                class="rounded float-left" alt="..."></center>
-                    </div>
-                </div>
-            </div>
-        <div class="container borde">
-                <nav class="nav nav-pills nav-fill navbar-dark bg-dark " >
-                    <a class="nav-item nav-link navbar-dark bg-dark text-danger"   href="#" onclick="inicio()" ><h5>INICIO</h5></span></a>
-                    <a class="nav-item nav-link navbar-dark bg-dark text-danger"  href="#" onclick="plato()"><h5>PLATOS</h5></a>
-                    <a class="nav-item nav-link active navbar-dark bg-dark text-warning " href="#" onclick="ubicacion()" ><h5>UBICACION</h5></a>
-                    <a class="nav-item nav-link navbar-dark bg-dark text-danger" href="#" onclick="informacion()"><h5>INFORMACION</h5></a>
-                    <li class="nav-item dropdown navbar-dark bg-dark text-danger ">
-                        <center><a class="nav-link dropdown-toggle navbar-dark bg-dark text-danger  " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <H5>CLIENTES</H5>
-                        </a>
-                        <div class="dropdown-menu navbar-dark bg-dark text-danger " aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item navbar-dark bg-dark text-danger " href="#" onclick="iniciars()">INICIAR SESION</a> </center>
-                        </div>
-                  </nav>
-                </div>
-
-
     <div class="container borde">
-        <center><h1> Como llegar a nuestras instalaciones </h1></center>
-        <center> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.4821376174727!2d-76.23869088564373!3d1.9608106985704963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e256fa55fd65ddb%3A0xaa774484e3b73ef5!2sEl%20Punto%20Del%20Cuy%20Sabor%20Tradicional!5e0!3m2!1ses!2sco!4v1569041937322!5m2!1ses!2sco" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe> </center>
+        <div class="row ">
+            <div class="col bordeColumna1">
+                <h1>
+                    <center><br> <br>EL PUNTO DEL CUY</center>
+                </h1>
+            </div>
+            <div class="col bordeColumna1">
+                <center><img class="imagen" src="imagenes/Logo.png" class="rounded float-left" alt="..."></center>
+            </div>
+        </div>
     </div>
     <div class="container borde">
-        <center><h1>Recorrido desde el Municipio de ISNOS-HUILA</h1></center>
-        <center><video width="600" height ="400" controls> 
-        <source src="video/El Punto Del Cuy Sabor Tradicional added a cover video.mp4">video</video>
-        </video></center>
+        <nav class="nav nav-pills nav-fill navbar-dark bg-dark ">
+            <a class="nav-item nav-link navbar-dark bg-dark text-danger" href="#" onclick="inicio()">
+                <h5>INICIO</h5></span>
+            </a>
+            <a class="nav-item nav-link navbar-dark bg-dark text-danger" href="#" onclick="plato()">
+                <h5>PLATOS</h5>
+            </a>
+            <a class="nav-item nav-link active navbar-dark bg-dark text-warning " href="#" onclick="ubicacion()">
+                <h5>UBICACION</h5>
+            </a>
+            <a class="nav-item nav-link navbar-dark bg-dark text-danger" href="#" onclick="informacion()">
+                <h5>INFORMACION</h5>
+            </a>
+            <a class="nav-item nav-link navbar-dark bg-dark text-danger" href="#" onclick="reserva()">
+                <h5>RESERVAS</h5>
+            </a>
+    </div>
+    </nav>
+    </div>
+
+
+    <div class="container borde">
+        <center>
+            <h1> Como llegar a nuestras instalaciones </h1>
+        </center>
+        <center> <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.4821376174727!2d-76.23869088564373!3d1.9608106985704963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e256fa55fd65ddb%3A0xaa774484e3b73ef5!2sEl%20Punto%20Del%20Cuy%20Sabor%20Tradicional!5e0!3m2!1ses!2sco!4v1569041937322!5m2!1ses!2sco"
+                width="800" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe> </center>
+    </div>
+    <div class="container borde">
+        <center>
+            <h1>Recorrido desde el Municipio de ISNOS-HUILA</h1>
+        </center>
+        <center><video width="600" height="400" controls>
+                <source src="video/El Punto Del Cuy Sabor Tradicional added a cover video.mp4">video</video>
+            </video></center>
     </div>
 
     <div class="container borde">
@@ -89,7 +99,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
-            <script src="js/web.js"></script>
+        <script src="js/web.js"></script>
 </body>
 
 </html>
