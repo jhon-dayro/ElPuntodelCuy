@@ -1,0 +1,28 @@
+{
+  "name": "elpuntodelcuy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon js/web1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhon-dayro/ElPuntodelCuy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhon-dayro/ElPuntodelCuy/issues"
+  },
+  "homepage": "https://github.com/jhon-dayro/ElPuntodelCuy#readme"
+}
